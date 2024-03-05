@@ -215,8 +215,16 @@ figure {
 video {
     margin-top: 10px;
     margin-bottom: 20px;
+    width: 600px;
+    height: 400px;
 }
 
 h1 {
     font-size: 50px;
 }
+
+.openings {
+    display: flex;
+    justify-content: center;
+}
+
