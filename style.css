@@ -1,0 +1,222 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+}
+
+@font-face {
+    font-family: "Undertale";
+    font-style: normal;
+    src: url(fonts/Undertale-Battle-Font.ttf);
+}
+
+body {
+    background-image: url(images/jojo_background.png);
+    background-size: contain;
+    font-family: "Undertale";
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sign {
+    display: flex;
+    justify-content: center;
+    border-radius: 30px;
+    width: 2000px;
+    height: 130px;
+}
+
+.jojo_sign {
+    display: flex;
+    justify-content: center;
+    width: 200px;
+    height: 130px;
+}
+
+.grid1{
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+}
+
+.grid2 {
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+}
+
+.grid3 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.grid4 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.grid5 {
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+}
+
+.grid6 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.jojo_characters{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.jojo_characters:hover{
+    cursor: pointer;
+}
+
+img {
+    cursor: pointer;
+}
+
+video {
+    cursor: pointer;
+}
+
+.image_jojo{
+    width: 200px;   
+    height: 400px;
+    transition: all 7s ease-in;
+}
+
+.jojo_name {
+    text-align: center;
+}
+
+
+/* .image_jojo:hover {
+    transform: rotate(3600000deg);
+    transform: scale(1.6);
+}  */
+
+.jojo_characters:hover {
+    transform: font-size 6s;
+}
+
+.chavo_jojo {
+    display: flex;
+    flex-direction: row;
+    color: yellowgreen;
+}
+.h1 {
+    font-size: 40px;
+    padding: -10px;
+    margin: 0px 0px 0px 30px;
+}
+
+.center {
+    font-size: 40px;
+    color: yellowgreen;
+}
+
+.border_background {
+    margin: 0px 20px 0px 20px;
+    border: 20px double;
+    border-color: yellowgreen;
+}
+
+.border_chapter1 {
+    margin: 0px 20px 0px 20px;
+    border-top: 0px hidden;
+    border-bottom: 20px;
+    border-right: 20px;
+    border-left: 20px;
+    border-color:#30bcb0;
+    border-style: double;
+    color: rgb(112, 40, 128);
+    -webkit-text-stroke: 0.2px  rgb(56, 160, 160);
+}
+
+.border_chapter2 {
+    margin: 0px 20px 0px 20px;
+    border-top: 0px hidden;
+    border-right: 20px;
+    border-left: 20px;
+    border-bottom: 20px;
+    border-color: rgb(205, 121, 192);
+    border-style: double;
+    color: rgb(205, 121, 192);
+    -webkit-text-stroke: 0.2px  rgb(136, 0, 56);
+}
+
+.border_chapter3 {
+    border-top: 0px hidden;
+    margin: 0px 20px 0px 20px;
+    border-right: 20px;
+    border-left: 20px;
+    border-bottom: 20px;
+    border-color: rgb(0, 4, 184);
+    border-style: double;
+    color: rgb(0, 4, 184);
+    -webkit-text-stroke: 0.2px  white;
+}
+
+.border_chapter4 {
+    border-top: 0px hidden;
+    margin: 0px 20px 0px 20px;
+    border-right: 20px;
+    border-left: 20px;
+    border-bottom: 20px;
+    border-color: rgb(213, 67, 144);
+    border-style: double;
+    color: rgb(213, 67, 144);
+    -webkit-text-stroke: 0.2px  rgb(144, 48, 96);
+}
+
+.border_chapter5 {
+    margin: 0px 20px 0px 20px;
+    border-top: 0px hidden;
+    border-right: 20px;
+    border-left: 20px;
+    border-bottom: 20px;
+    border-color: rgb(216, 152, 56);
+    border-style: double;
+    color: rgb(216, 152, 56);
+    -webkit-text-stroke: 0.2px  rgb(208, 88, 8);
+}
+
+.border_chapter6 {
+    border-top: 0px hidden;
+    margin: 0px 20px 0px 20px;
+    border-right: 20px;
+    border-left: 20px;
+    border-bottom: 20px;
+    border-color: rgb(56, 128, 192);
+    border-style: double;
+    color: white;
+    -webkit-text-stroke: 0.2px  rgb(56, 128, 192);
+}
+
+.season_font {
+    padding-top: 15px;
+    padding-bottom: 20px;
+}
+
+figure {
+    text-align: center;
+}
+
+.season_font {
+    font-size: 60px;
+}
+
+video {
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+h1 {
+    font-size: 50px;
+}
